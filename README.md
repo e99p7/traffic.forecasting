@@ -1,6 +1,6 @@
 # Traffic Forecast Production-Ready Starter
 
-Проект уже настроен под ваши реальные файлы:
+Проект уже настроен под реальные файлы:
 
 - `data/traffic.csv`
 - `data/traffic_year.csv`
