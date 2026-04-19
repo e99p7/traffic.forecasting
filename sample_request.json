@@ -1,0 +1,424 @@
+{
+  "history": [
+    {
+      "period": "2023-04-29",
+      "direct": 13,
+      "search": 6,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-04-30",
+      "direct": 20,
+      "search": 11,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-01",
+      "direct": 9,
+      "search": 14,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-02",
+      "direct": 16,
+      "search": 14,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-03",
+      "direct": 9,
+      "search": 15,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-04",
+      "direct": 2,
+      "search": 16,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-05",
+      "direct": 11,
+      "search": 19,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-06",
+      "direct": 7,
+      "search": 5,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-07",
+      "direct": 17,
+      "search": 13,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-08",
+      "direct": 5,
+      "search": 10,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-09",
+      "direct": 8,
+      "search": 10,
+      "social": 4,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-10",
+      "direct": 7,
+      "search": 20,
+      "social": 3,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-11",
+      "direct": 12,
+      "search": 13,
+      "social": 5,
+      "referral": 1
+    },
+    {
+      "period": "2023-05-12",
+      "direct": 7,
+      "search": 18,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-13",
+      "direct": 4,
+      "search": 13,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-14",
+      "direct": 5,
+      "search": 14,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-15",
+      "direct": 3,
+      "search": 18,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-16",
+      "direct": 6,
+      "search": 24,
+      "social": 2,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-17",
+      "direct": 7,
+      "search": 30,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-18",
+      "direct": 11,
+      "search": 19,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-19",
+      "direct": 5,
+      "search": 27,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-20",
+      "direct": 5,
+      "search": 17,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-21",
+      "direct": 4,
+      "search": 14,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-22",
+      "direct": 4,
+      "search": 25,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-23",
+      "direct": 7,
+      "search": 35,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-24",
+      "direct": 5,
+      "search": 16,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-25",
+      "direct": 11,
+      "search": 34,
+      "social": 0,
+      "referral": 1
+    },
+    {
+      "period": "2023-05-26",
+      "direct": 5,
+      "search": 21,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-27",
+      "direct": 3,
+      "search": 8,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-28",
+      "direct": 7,
+      "search": 20,
+      "social": 0,
+      "referral": 1
+    },
+    {
+      "period": "2023-05-29",
+      "direct": 10,
+      "search": 21,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-30",
+      "direct": 6,
+      "search": 22,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-05-31",
+      "direct": 3,
+      "search": 20,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-01",
+      "direct": 6,
+      "search": 19,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-02",
+      "direct": 9,
+      "search": 17,
+      "social": 0,
+      "referral": 1
+    },
+    {
+      "period": "2023-06-03",
+      "direct": 2,
+      "search": 15,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-04",
+      "direct": 7,
+      "search": 17,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-05",
+      "direct": 8,
+      "search": 30,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-06",
+      "direct": 2,
+      "search": 23,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-07",
+      "direct": 4,
+      "search": 29,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-08",
+      "direct": 6,
+      "search": 17,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-09",
+      "direct": 3,
+      "search": 11,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-10",
+      "direct": 3,
+      "search": 7,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-11",
+      "direct": 1,
+      "search": 9,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-12",
+      "direct": 2,
+      "search": 10,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-13",
+      "direct": 3,
+      "search": 21,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-14",
+      "direct": 2,
+      "search": 23,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-15",
+      "direct": 6,
+      "search": 21,
+      "social": 0,
+      "referral": 1
+    },
+    {
+      "period": "2023-06-16",
+      "direct": 6,
+      "search": 14,
+      "social": 1,
+      "referral": 1
+    },
+    {
+      "period": "2023-06-17",
+      "direct": 4,
+      "search": 10,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-18",
+      "direct": 1,
+      "search": 18,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-19",
+      "direct": 3,
+      "search": 20,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-20",
+      "direct": 3,
+      "search": 16,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-21",
+      "direct": 5,
+      "search": 22,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-22",
+      "direct": 4,
+      "search": 11,
+      "social": 2,
+      "referral": 1
+    },
+    {
+      "period": "2023-06-23",
+      "direct": 3,
+      "search": 14,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-24",
+      "direct": 1,
+      "search": 3,
+      "social": 0,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-25",
+      "direct": 5,
+      "search": 5,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-26",
+      "direct": 2,
+      "search": 20,
+      "social": 1,
+      "referral": 0
+    },
+    {
+      "period": "2023-06-27",
+      "direct": 3,
+      "search": 15,
+      "social": 0,
+      "referral": 0
+    }
+  ]
+}
