@@ -1,3 +1,146 @@
+
+# Traffic Forecast Production-Ready Starter
+
+The project is already configured for real files:
+
+- `data/traffic.csv`
+- `data/traffic_year.csv`
+
+Both files can be used simultaneously. During training, dates are automatically combined and duplicates are deleted by the Period field.
+
+## Structure
+
+```text
+.
+├── api/
+│   └── main.py
+├── artifacts/
+├── data/
+│   ├── traffic.csv
+│   └── traffic_year.csv
+├── train.py
+├── inference.py
+├── sample_request.json
+├── Dockerfile
+├── docker-compose.yml
+└── requirements.txt
+```
+
+## What is `artifacts/`
+
+This folder is empty at first. After training, they are saved there:
+
+- `model.keras' — trained model
+- `x_scaler.joblib` — input feature scaler
+- `y_scaler.joblib` — the target's scaler
+- `metadata.json` — model and metric parameters
+
+## 1. Training
+
+It can be run without arguments at all.:
+
+```bash
+python train.py
+```
+
+By default, it is used:
+
+- `data/traffic.csv`
+- `data/traffic_year.csv`
+- `window_size=60`
+- `val_len=60`
+- `target_column=referral`
+
+If you want explicitly:
+
+```bash
+python train.py \
+  --train-csvs data/traffic.csv data/traffic_year.csv \
+  --artifacts-dir artifacts \
+  --window-size 60 \
+  --val-len 60 \
+  --epochs 30 \
+  --batch-size 16 \
+  --target-column referral \
+  --model-version v1
+```
+
+## 2. Local forecast from CSV
+
+After the training:
+
+```bash
+python inference.py
+```
+
+By default, the inference takes `data/traffic_year.csv` as a recent history.
+
+Or so:
+
+```bash
+python inference.py --input-csv data/traffic_year.csv --artifacts-dir artifacts
+```
+
+## 3. Launching the API locally
+
+```bash
+uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+API Documentation:
+- `http://localhost:8000/docs`
+
+Health check:
+- `GET /health`
+
+Forecast:
+- `POST /predict`
+
+Example:
+
+```bash
+curl -X POST "http://localhost:8000/predict" \
+  -H "Content-Type: application/json" \
+  --data @sample_request.json
+```
+
+## 4. Docker
+
+### Assembly
+
+```bash
+docker build -t traffic-forecast:latest .
+```
+
+### Launch
+
+```bash
+docker run --rm -p 8000:8000 \
+  -v $(pwd)/artifacts:/app/artifacts \
+  -v $(pwd)/data:/app/data \
+  traffic-forecast:latest
+```
+
+### Via docker compose
+
+```bash
+docker compose up --build
+```
+
+## Launch order
+
+1. `pip install -r requirements.txt`
+2. `python train.py `
+3. make sure that 4 files have appeared in `artifacts/`
+4. `python inference.py ` or `uvicorn api.main:app ...`
+
+## Important
+
+Until the artifacts are created, the API will not make predictions.  
+'/health` at this point will show the status `not_ready'.
+
+---
+
 # Traffic Forecast Production-Ready Starter
 
 Проект уже настроен под реальные файлы:
