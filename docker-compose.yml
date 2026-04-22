@@ -1,0 +1,11 @@
+services:
+  traffic-api:
+    build: .
+    container_name: traffic-forecast-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    environment:
+      - MODEL_DIR=/app/artifacts
